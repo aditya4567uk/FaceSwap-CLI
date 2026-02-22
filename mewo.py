@@ -1,4 +1,5 @@
 print("hello i am dev")
+print("\n # NOTE YOU ARE GETTING `MODEL NOT FOUND .ONNX` OR SIMILAR ERRORS, THEN IT MEANS SOME MODELS ARE NOT DOWNLOADED, THEN COPY THE NAME OF MODEL WHICH IS NOT FOUND SEACH THE EXACT NAME ON HUGGINGFACE AND DOWNLOAD THOSE ONNX MODEL AND PLACE IT TO -> `C:\Users\<YOUR USERNAME>\miniconda3\envs\myenv\Lib\site-packages\.assets\models` \n")
 from facefusionlib import swapper
 from facefusionlib.swapper import DeviceProvider
 
@@ -16,3 +17,4 @@ result = swapper.swap_face(
 )
 print(type(result))
 print("The path of swapped image is :", result)  # SUBSCRIBE :)
+
